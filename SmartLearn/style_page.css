@@ -1,0 +1,102 @@
+body {
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 950px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Sarlavha */
+.site-title {
+  text-align: center;
+  color: #ff006e;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.views {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ff4d6d;
+  margin-bottom: 30px;
+}
+
+/* Post dizayni */
+.post {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.post:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Sana */
+.date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Matn va sarlavhalar */
+h1, h2, h3 {
+  color: #222;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #ff006e;
+  font-size: 1.5rem;
+}
+
+.long-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+/* Rasmlar */
+img.photo, .post img {
+  width: 100%;
+  height: 300px;       /* barchasi bir xil balandlik */
+  object-fit: cover;   /* rasm qirqilsa ham chiroyli */
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+img.photo:hover {
+  transform: scale(1.03);
+}
+
+/* Kategoriyalar bo‘limi */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.card-body h5 {
+  font-weight: bold;
+  color: #ff006e;
+}
+.btn {
+  border-radius: 8px;
+}
